@@ -1,19 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 body {
-    color: black;
-}
-
-h1 {
-    color: royalblue;
-}
-
-h2 {
-    color: orange;
-}
-
-#lib-header {
-    color: navy;
-}
-
-.para {
-    color: gray;
+    font-family: 'Noto Sans', sans-serif;
 }
