@@ -62,7 +62,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    /* border-bottom-right-radius: 1rem; */
  }
 
  .navigation .nav-brand {
@@ -116,4 +116,23 @@ hr {
 
  .ow {
    background-color: var(--off-white);
+ }
+
+
+ /** footers **/
+
+ .footer {
+   background-color: var(--primary-color);
+   padding: 1rem 2rem;
+   text-align: center;
+   color: white;
+   border-top-right-radius: 1rem;
+ }
+
+ .footer .link {
+   color: white;
+ }
+
+ .footer ul {
+   padding-inline-start: 0px;
  }
