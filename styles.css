@@ -8,6 +8,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /** container **/
 .container {
     padding: 0rem 1rem;
@@ -36,4 +40,15 @@ body {
     border: 1px solid var(--primary-color);
 }
 
-/** BEM Naming convention is what? **/
+/** BEM Naming convention for CSS is what? **/
+
+/** lists **/
+
+ .list-non-bullet {
+    list-style: none;
+ }
+
+ .list-item-inline {
+    display: inline;
+    padding : 0rem 0.5rem;
+ }
