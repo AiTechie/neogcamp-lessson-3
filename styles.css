@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #2563eb;
+    --darker-gray: #1e293b;
 }
 
 body {
@@ -60,6 +61,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
  }
 
  .navigation .nav-brand {
@@ -76,4 +78,23 @@ hr {
 
  .navigation .link-active {
     font-weight: bold;
+ }
+
+ /** header **/
+
+ .coder {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+ }
+
+ .coder .coder-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+ }
+
+ .coder .coder-heading {
+    padding-top: 1rem;
+    color: var(--darker-gray);
  }
